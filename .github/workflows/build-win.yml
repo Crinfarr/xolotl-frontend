@@ -31,7 +31,4 @@ jobs:
             #     SET WX_BUILD_DIR=..\..\wx\build\msw
             #     "%MSBUILD_PATH%" ""
             #TODO FIGURE OUT HOW TO BUILD THIS SHIT ON WINDOWS
-on:
-    push: 
-        branches:
-            - main
+on: workflow_dispatch
